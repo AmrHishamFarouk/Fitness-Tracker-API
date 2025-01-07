@@ -1,0 +1,3 @@
+user: amr
+email: amr@gmail.com
+pass: amr
