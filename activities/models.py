@@ -20,7 +20,7 @@ class Activity(models.Model):
         if not self.activity_type:
             raise ValidationError('Activity Type is required.')
         if self.duration is None or self.duration <= 0:
-            raise ValidationError('Duration is required or invalid.')
+            raise ValidationError('valid Duration is required or invalid.')
         if not self.date:
             raise ValidationError('Date is required.')
 

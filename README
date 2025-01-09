@@ -1,0 +1,30 @@
+# Fitness Tracker API
+
+The Fitness Tracker API is a Django-based project that allows users to log and manage their fitness activities. The API supports CRUD operations for activities, provides filtering and pagination, and includes endpoints for summarizing and analyzing user activity data.
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Endpoints](#endpoints)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Security](#security)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- User authentication and authorization using token-based authentication.
+- CRUD operations for fitness activities.
+- Optional filters for viewing activities by date range and activity type.
+- Pagination and sorting of activity lists.
+- Endpoint for summarizing user activities (total duration, distance, calories burned).
+
+## Installation
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/yourusername/fitness-tracker-api.git
+   cd fitness-tracker-api
